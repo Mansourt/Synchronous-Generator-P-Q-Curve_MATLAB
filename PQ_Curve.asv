@@ -107,8 +107,8 @@ for ii = 1:length(R_tags)
 end
 
 Mt1 = [0,0,0,0,0,0.01,0.01,0.01,0.01];
-Mt2 = [0,0,-0.03,-0.03,-0.02,-0.02,-0.02,-0.01,-0.015];
-Mr2 = [0,-0.01,-0.01,-0.02,-0.02,-0.03,-0.03,-0.04,-0.05];
+Mt2 = [0,0,-0.03,-0.03,-0.01,-0.01,-0.02,-0.01,-0.015];
+Mr2 = [-0.01,-0.02,-0.02,-0.03,-0.04,-0.04,-0.04,-0.05,-0.05];
 
 for jj = 1:length(PF_tags)
     s2 = sprintf('%0.2f', PF_tags(jj));
@@ -122,6 +122,9 @@ for jj = 1:length(PF_tags)
     set(hT, 'fontweight','bold','fontsize',12);
 end
 
+text(-r0*(1- pf0^2)^0.5, r0*pf0, s2);
+
+
 set(gcf, 'Unit','normalized','Position',[0,0,1,1])
 set(gca,'visible','off')
 set(gcf, 'color','w');
@@ -130,16 +133,16 @@ plot([-1.3 1.4],[0 0],'k', 'LineWidth',2); hold on
 plot([0 0],[0 1.4],'k','LineWidth',2.2);
 
 hT = text(1.3, -0.04, 'Q [P.U.]');
-set(hT, 'fontweight','bold','fontsize',13);
+set(hT, 'fontweight','bold');
 hT = text(0.02, 1.35, 'P [P.U.]');
-set(hT, 'fontweight','bold','fontsize',13);
+set(hT, 'fontweight','bold');
 
 axis equal;
 
 hT = text(-0.5,1.5,'Synchronous Generator P-Q Curve');
 set(hT, 'FontSize', 18, 'FontWeight','Bold');
 
-hL = legend(' 1.05 * Un',' 0.95 * Un',' 1.00 * Un');
+hL = legend('1.05 * U_n','0.95 * U_n','1.00 * U_n');
 set(hL, 'fontsize',12, 'fontname','courier new')
 
 
