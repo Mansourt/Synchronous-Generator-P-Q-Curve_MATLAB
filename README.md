@@ -30,7 +30,7 @@ In the following, three main limits of generator capability is presented:
 ## Armature Current Limit
 
 Armature Current Limitation will resulted in the following equations for P and Q:
-<p align="right">
+<p align="left">
   <img src="../master/Pic/Armature_Current_Limit.png" />
 </p>
 
@@ -39,7 +39,7 @@ Armature Current Limitation will resulted in the following equations for P and Q
 
 Field Current Limitation will resulted in the following equations for P and Q:
 
-<p align="right">
+<p align="left">
   <img src="../master/Pic/Field_Current_Limit.png" />
 </p>
 
@@ -51,7 +51,7 @@ stay in synchronous operation at slow load changes.
 
 Stability Limitation will resulted in the following equations for P and Q:
 
-<p align="right">
+<p align="left">
   <img src="../master/Pic/Stability_Limit.png" />
 </p>
 
@@ -74,7 +74,7 @@ Xs = 2;                 % Synchronous Reactance
 ## Usage:
 Synchronous Generator P-Q Curve:
 
-<p align="right">
+<p align="left">
   <img src="../master/Pic/P_Q_Curve_Capability_Curve.png" />
 </p>
 
