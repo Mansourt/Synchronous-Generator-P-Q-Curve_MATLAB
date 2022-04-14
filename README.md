@@ -5,7 +5,7 @@
 The generator operating limits is expressed in the form of the generator P-Q diagram. In other words, generator P-Q diagram
 provides a safe boundary in which the generator can operate without exceeding thermal limitations.
 
-Practical steps for drawing Generator Capability Curve using MATLAB is presented  in this publication.
+In this publication, practical steps for drawing Generator Capability Curve using MATLAB is presented  .
 
 Assumptions:
 
@@ -29,7 +29,7 @@ Parameters and Quantities definitions:
 
 In the following, three main limits of generator capability is presented:
 
-## Armature Current Limit
+## 1. Armature Current Limit
 
 Armature Current Limitation will resulted in the following equations for P and Q:
 <p align="left">
@@ -37,7 +37,7 @@ Armature Current Limitation will resulted in the following equations for P and Q
 </p>
 
 	
-## Field Current Limit 
+## 2. Field Current Limit 
 
 Field Current Limitation will resulted in the following equations for P and Q:
 
@@ -46,12 +46,12 @@ Field Current Limitation will resulted in the following equations for P and Q:
 </p>
 
 
-## Stability Limit
+## 3. Stability Limit
 
-Stability of the turbogenerator is ability  to
-stay in synchronous operation at slow load changes.
+Stability of the turbogenerator is the ability to
+stay in synchronous operation under slow load changes.
 
-Stability Limitation will resulted in the following equations for P and Q:
+Stability limitation will resulted in the following equations for P and Q:
 
 <p align="left">
   <img src="../master/Pic/Stability_Limit.png" />
@@ -59,7 +59,7 @@ Stability Limitation will resulted in the following equations for P and Q:
 
 ## Usage:
 
-Just define the required Parameters as follows and run the script
+Just define the required parameters as follows and run the script
 
 ``` MATLAB
 %% Synchronous Generator P-Q Curve
