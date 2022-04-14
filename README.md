@@ -77,7 +77,7 @@ Xs = 2;                 % Synchronous Reactance
 Synchronous Generator P-Q Curve:
 
 <p align="left">
-  <img src="../master/Pic/P_Q_Curve_Capability_Curve.png" />
+  <img src="../master/Pic/P-Q_Curve_Capability_Curve.emf" />
 </p>
 
 
