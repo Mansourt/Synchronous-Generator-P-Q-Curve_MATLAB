@@ -8,15 +8,17 @@ provides a safe boundary in which the generator can operate without exceeding th
 Practical steps for drawing Generator Capability Curve using MATLAB is presented  in this publication.
 
 Assumptions:
-    * Synchronous Generator
-    * Round Rotor
+
+	* Synchronous Generator
+	* Round Rotor
 	* Armature Winding Resistance is neglected
 	* Quantities are expressed based on Per Unit (P.U.) system
 	
 Parameters and Quantities definitions:
+
 	* Sn	: Nominal Apparent Power
-    * P 	: Active Power
-    * Q 	: Reactive Power
+	* P 	: Active Power
+	* Q 	: Reactive Power
 	* Ea	: Induced voltage in stator windings
 	* V 	: Terminal Voltage
 	* I 	: Armature Current
