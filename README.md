@@ -1,4 +1,4 @@
-[![View Matlab Dynamic Programming on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://de.mathworks.com/matlabcentral/fileexchange/86573-matlab-dynamic-programming)
+[![View Matlab Dynamic Programming on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/110095-synchronous-generator-p-q-curve)
 
 # Synchronous Generator Capability Curve (P-Q Curve) using MATLAB
 
